@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+:root {
+    --background: #221f1f;
+    --background-light: #ababab;
+    --paragraph: #94a1b2;
+    --paragraph-light: #000000;
+    --headline: #fffffe;
+    --headline-light: #7f5af0;
+}
+body {
+    scroll-behavior: smooth;
+    background-color: var(--background);
+    color: var(--paragraph);
+    transition: all 0.5s;
+}
+.dark{
+    background-color: var(--background-light);
+    color: var(--paragraph-light);
+}
+
+h1,h2,h3,h4{
+    color: var(--headline);
+}
