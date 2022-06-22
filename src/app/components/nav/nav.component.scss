@@ -12,13 +12,18 @@ nav{
 
             &:hover{
                 color: var(--headline-light);
+                animation: scale 1s;
             }
         }
+        @keyframes scale {
+            0% {transform: scale(1);}
+            100% {transform: scale(1.2)}
+          }
     }
 
     .themeChanger{
         cursor: pointer;
-        transition: all 0.5s;
+        transition: all 1s;
         &:hover{
             transform: scale(1.5);
         }

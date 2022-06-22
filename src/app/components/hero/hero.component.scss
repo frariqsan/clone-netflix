@@ -15,8 +15,17 @@
                 width: 200px;
                 height: 300px;
                 object-fit: cover;
-                padding: 10px;
-                border: solid 1px var(--paragraph);
+
+                box-shadow: 5px 5px 15px 5px #747373;
+                cursor: pointer;
+
+                &:hover {
+                    animation: scale 1s;
+                }
             }
+            @keyframes scale {
+                0% {transform: scale(0.9);}
+                100% {transform: scale(1.2)}
+              }
         }
 }

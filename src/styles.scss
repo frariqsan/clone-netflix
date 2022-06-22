@@ -16,9 +16,12 @@ a{
     --paragraph: #94a1b2;
     --paragraph-light: #000000;
     --headline: #fffffe;
-    --headline-light: #7f5af0;
+    --headline-light: #f4a900;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 body {
+    font-family: 'Source Code Pro', monospace;
     scroll-behavior: smooth;
     background-color: var(--background);
     color: var(--paragraph);
